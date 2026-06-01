@@ -1,0 +1,6 @@
+# Live tasks for Client-Alpha go here, one directory per task:
+#   tasks/<task-name>/target-state.md
+#   tasks/<task-name>/approved-plan.md
+#   tasks/<task-name>/handover.md   (optional, per-task)
+# Use the top-level tasks/example-* directories as starting templates.
+# Remove this file once the first real task directory is added.

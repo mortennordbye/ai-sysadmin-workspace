@@ -1,0 +1,4 @@
+# This file keeps the otherwise-empty templates/ directory tracked by git.
+# Place reusable, safe starting points here (base configs, playbook skeletons,
+# standard target-state / approved-plan stubs). Remove this file once real
+# templates are added.

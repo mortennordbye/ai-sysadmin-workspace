@@ -1,0 +1,29 @@
+# --- Secrets: never commit credentials, keys, or live secret material ---
+# Anything under a secrets/ directory is ignored, EXCEPT its README placeholder.
+# Keep real secrets in a proper vault (e.g., HashiCorp Vault, Ansible Vault,
+# Windows Credential Manager) — this repo is for declarative plans, not secrets.
+**/secrets/*
+!**/secrets/README.md
+
+# Common credential / key file patterns, wherever they appear
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+*_rsa
+*_ed25519
+.env
+*.env
+credentials*
+*secret*.yml
+*secret*.yaml
+vault-password*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
